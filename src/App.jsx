@@ -1,5 +1,5 @@
 import CalcularFrete from "./components/CalcularFrete"
-import Footer from './components/footer.jsx'
+import Footer from './components/Footer.jsx'
 function App() {
 
   return (
