@@ -1,4 +1,5 @@
 
+
 const CalcularFrete = () => {
   return (
     <div className="bg-gray-600 flex justify-center items-center min-h-screen p-4">
@@ -25,14 +26,14 @@ const CalcularFrete = () => {
                     </label>
                     <select
                         id="transport"
-                        className="w-full px-4 py-3 border border-gray-700 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-3 border border-gray-700 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500" 
                     >
                         <option>Bicicleta</option>
                         <option>Carro</option>
                         <option>Drone</option>
                     </select>
                 </div>
-                <button className="w-full py-3 bg-blue-700 rounded-2xl text-white text-2xl hover:bg-cyan-700 transition-colors duration-300">
+                <button className="w-full py-3 bg-blue-700 rounded-2xl text-white text-2xl hover:bg-cyan-700 transition-colors duration-300 cursor-pointer">
                     Calcular
                 </button>
             </form>
